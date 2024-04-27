@@ -1,0 +1,67 @@
+body {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  background-color: rgb(36, 34, 34);
+  color: rgb(211, 197, 197);
+  width: 1024px;
+  margin: 20px 0 0 50px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.img_playlist {
+  width: 250px;
+  height: 240px;
+  margin: 0 25px 35px 0;
+  border-radius: 8px;
+}
+.playlist_info_container {
+  padding-top: 15px;
+}
+.track_element_box {
+  width: 600px;
+  height: 60px;
+  display: flex;
+  justify-content: start;
+  flex-wrap: wrap;
+  margin-bottom: 25px;
+}
+h1 {
+  font-size: 16px;
+  margin-bottom: 40px;
+}
+h2 {
+  font-size: 36px;
+  color: #fff;
+  margin-bottom: 20px;
+}
+.count_tracks_and_times {
+  margin-bottom: 30px;
+  opacity: 0.5;
+}
+.cover_img_icons {
+  width: 55px;
+  height: 60px;
+  border-radius: 5px;
+  order: 1;
+}
+.artist_name_element {
+  height: 20px;
+  margin: 0 0 0 12px;
+  font-size: 14px;
+  order: 2;
+}
+.artist_name_element span,
+.artist_name_text_elements span {
+  opacity: 0.5;
+}
+audio {
+  width: 450px;
+  max-height: 28px;
+  border-radius: 4px;
+  background-color: #fff;
+  color: white;
+  position: relative;
+  left: 68px;
+  bottom: 30px;
+  order: 3;
+}

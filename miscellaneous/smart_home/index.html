@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Smart Home</title>
+  </head>
+  <body>
+    <div class="mobile">
+      <div class="mobile__top"></div>
+      <div class="mobile__content">
+        <div id="selectbox" class="selectbox">
+          <div class="selectbox__selected">
+            <span>Все комнаты</span>
+            <img src="./icons/arrow.svg" class="ic_arrow" />
+          </div>
+          <div class="selectbox__list">
+            <div data-room="all" class="selectbox__item selected">
+              Все комнаты
+            </div>
+            <div data-room="livingroom" class="selectbox__item">01-20</div>
+            <div data-room="bedroom" class="selectbox__item">20-40</div>
+            <div data-room="kitchen" class="selectbox__item">40-60</div>
+            <div data-room="bathroom" class="selectbox__item">60-80</div>
+            <div data-room="studio" class="selectbox__item">80-100</div>
+            <div data-room="washingroom" class="selectbox__item">100-120</div>
+          </div>
+        </div>
+        <div id="rooms" class="rooms">
+          <div data-room="livingroom" class="room">
+            <img src="./icons/livingroom.svg" class="ic_livingroom" /><span
+              >01-20</span
+            >
+          </div>
+          <div data-room="bedroom" class="room">
+            <img src="./icons/bedroom.svg" class="ic_bedroom" /><span
+              >20-40</span
+            >
+          </div>
+          <div data-room="kitchen" class="room">
+            <img src="./icons/kitchen.svg" class="ic_kitchen" /><span
+              >40-60</span
+            >
+          </div>
+          <div data-room="bathroom" class="room">
+            <img src="./icons/bathroom.svg" class="ic_bathroom" /><span
+              >60-80</span
+            >
+          </div>
+          <div data-room="studio" class="room">
+            <img src="./icons/studio.svg" class="ic_studio" /><span
+              >80-100</span
+            >
+          </div>
+          <div data-room="washingroom" class="room">
+            <img src="./icons/washingroom.svg" class="ic_washingroom" /><span
+              >100-120</span
+            >
+          </div>
+        </div>
+        <div id="settings" class="settings">
+          <div id="settings-tabs" class="settings__tabs">
+            <div data-type="leval_1" class="option">
+              <i class="ic_temperature">
+                <img src="./icons/temperature.svg" />
+              </i>
+              <span>leval-1</span>
+            </div>
+            <div data-type="leval_2" class="option">
+              <i class="ic_lights">
+                <img src="/icons/lights.svg" />
+              </i>
+              <span>leval-2</span>
+            </div>
+            <div data-type="leval_3" class="option">
+              <i class="ic_humidity">
+                <img src="/icons/humidity.svg" />
+              </i>
+              <span>leval-3</span>
+            </div>
+          </div>
+          <div id="setings-panel" class="settings__screens">
+            <div data-type="leval_1" class="settings__screen">
+              <div class="settings__screen-title">Уровен 1</div>
+              <div class="leval_1-button"></div>
+            </div>
+            <div data-type="leval_2" class="settings__screen"></div>
+            <div data-type="leval_3" class="settings__screen"></div>
+          </div>
+        </div>
+      </div>
+      <div class="mobile__bottom"></div>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>

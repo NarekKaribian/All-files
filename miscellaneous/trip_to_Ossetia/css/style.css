@@ -1,0 +1,257 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#header {
+  display: inline-block;
+  margin-left: -4px;
+  margin-top: 2px;
+}
+
+#header_jaguar {
+  margin-top: -90%;
+  margin-left: 20%;
+}
+
+#nav {
+  display: inline;
+  text-align: right;
+  position: absolute;
+  top: 5%;
+  left: 70%;
+}
+
+#nav ul {
+  list-style-type: none;
+}
+
+#nav ul li {
+  display: inline-block;
+  text-align: right;
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  margin-left: 42px;
+}
+
+#nav ul li a {
+  color: black;
+  text-decoration: none;
+}
+
+#nav ul li a:hover {
+  color: rgb(50, 112, 199);
+  transition: 0.3s;
+}
+
+.header_nav {
+  margin-bottom: 520px;
+}
+
+#main_middle_top img {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  top: 95px;
+}
+
+#main_middle_bottom img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+#main_middle_img_1 {
+  position: absolute;
+  left: 10%;
+  top: 400px;
+}
+
+#main_middle_img_1 img:hover {
+  transform: scale(150%);
+  transition: transform 0.3s;
+}
+
+#main_middle_text_1 {
+  text-align: center;
+  width: 230px;
+  height: 240px;
+  background-color: rgb(255, 255, 255);
+  margin: -2% 8.5%;
+  padding: 10px;
+  font-size: 17px;
+  font-family: "Roboto" sans-serif;
+  font-style: italic;
+  font-weight: 300;
+}
+
+#main_middle_text_1 h2 {
+  margin-bottom: 20px;
+  font-size: 22px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
+
+#main_middle_img_2 {
+  position: absolute;
+  left: 40%;
+  top: 400px;
+}
+
+#main_middle_img_2 img:hover {
+  transform: scale(150%);
+  transition: transform 0.3s;
+}
+
+#main_middle_text_2 {
+  text-align: center;
+  width: 230px;
+  height: 240px;
+  background-color: rgb(255, 255, 255);
+  margin: -2% 8.5%;
+  padding: 10px;
+  font-size: 17px;
+  font-family: "Roboto" sans-serif;
+  font-style: italic;
+  font-weight: 300;
+}
+
+#main_middle_text_2 h2 {
+  margin-bottom: 20px;
+  font-size: 22px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
+
+#main_middle_img_3 {
+  position: absolute;
+  left: 70%;
+  top: 400px;
+}
+
+#main_middle_img_3 img:hover {
+  transform: scale(150%);
+  transition: transform 0.3s;
+}
+
+#main_middle_text_3 {
+  text-align: center;
+  width: 230px;
+  height: 240px;
+  background-color: rgb(255, 255, 255);
+  margin: -2% 8.5%;
+  padding: 10px;
+  font-size: 17px;
+  font-family: "Roboto" sans-serif;
+  font-style: italic;
+  font-weight: 300;
+}
+
+#main_middle_text_3 h2 {
+  margin-bottom: 20px;
+  font-size: 22px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
+
+#main_bottom_header {
+  font-size: 50px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  position: absolute;
+  top: 1000px;
+  left: 18%;
+}
+
+.sever {
+  color: white;
+}
+
+.naya {
+  color: red;
+}
+
+.osetiya {
+  color: yellow;
+}
+
+#main_bottom_text {
+  position: absolute;
+  top: 1200px;
+  left: 13.5%;
+  font-size: 22px;
+  font-family: "Roboto" sans-serif;
+  font-weight: 300;
+  color: black;
+  text-align: center;
+  width: 1100px;
+  background-color: white;
+}
+
+#button {
+  width: 180px;
+  height: 50px;
+  position: absolute;
+  top: 1380px;
+  left: 45%;
+  background-color: red;
+  color: white;
+  font-size: 24px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+
+#button:hover {
+  transform: scale(120%);
+  background-color: yellow;
+  color: red;
+  transition: 0.3s;
+}
+
+#discounts {
+  margin-bottom: 20px;
+}
+
+#discounts_header {
+  text-align: center;
+  font-size: 42px;
+  font-family: "Roboto Slob" serif;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.count_flax {
+  display: flex;
+  flex-direction: column;
+  min-width: 800px;
+  align-items: center;
+  margin: 0 auto;
+  padding: 30px;
+}
+
+#countdown {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  text-align: center;
+  font-size: 35px;
+  font-family: "Roboto" sans-serif;
+  font-weight: 400;
+  min-width: 320px;
+  color: rgb(95, 93, 93);
+}
+
+.countdown_item {
+  background-color: yellow;
+  padding: 15px;
+  min-width: 65px;
+}
+
+.expired {
+  color: black;
+  margin: 0 auto;
+}

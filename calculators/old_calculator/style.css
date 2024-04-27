@@ -1,0 +1,72 @@
+body {
+    text-align: center;
+}
+
+.container_header {
+    display: inline-block;
+    border: 5px solid rgb(99, 99, 140);
+    width: 300px;
+    height: 300px;
+}
+
+h1 {
+    color: rgb(136, 136, 161);
+}
+
+.number_one {
+    color: rgb(63, 54, 54);
+    height: 30px;
+    width: 110px;
+    font-size: 20px;
+}
+
+.number_two {
+    color: rgb(63, 54, 54);  
+    height: 30px;
+    width: 110px;
+    font-size: 20px;
+}
+
+.container_button {
+    margin-bottom: 20px;
+}
+
+.plus {
+    height: 30px;
+    width: 30px;
+    font-size: 20px;
+}
+
+.minus {
+    height: 30px;
+    width: 30px;
+    font-size: 20px;
+}
+
+.multiply {
+    height: 30px;
+    width: 30px;
+    font-size: 20px;
+}
+
+.divide {
+    height: 30px;
+    width: 30px;
+    font-size: 20px;
+}
+
+.clear {
+    height: 30px;
+    font-size: 16px;
+}
+
+.sum {
+    color: rgb(136, 136, 161);
+    margin: 0px;
+}
+
+.header {
+    display: inline-block;
+    border: 1px solid black;
+    font-size: 30px;
+}
