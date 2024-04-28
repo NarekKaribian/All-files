@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>English translator</title>
+  </head>
+  <body>
+    <div class="mobile">
+      <div class="mobile__top"></div>
+      <div class="mobile__content">
+        <div id="selectbox" class="selectbox">
+          <div class="selectbox__selected">
+            <span>All words</span>
+            <img src="./icons/arrow.svg" class="ic_arrow" />
+          </div>
+          <div class="selectbox__list">
+            <div data-words="all" class="selectbox__item selected">
+              All words
+            </div>
+            <div data-words="livingroom" class="selectbox__item">01-20</div>
+            <div data-words="bedroom" class="selectbox__item">20-40</div>
+            <div data-words="kitchen" class="selectbox__item">40-60</div>
+            <div data-words="bathroom" class="selectbox__item">60-80</div>
+            <div data-words="studio" class="selectbox__item">80-100</div>
+            <div data-words="washingroom" class="selectbox__item">100-120</div>
+          </div>
+        </div>
+        <div id="words_box" class="words_box">
+          <div data-words="livingroom" class="words box_1">
+            <span>01-20</span>
+          </div>
+          <div data-words="bedroom" class="words box_2">
+            <span>20-40</span>
+          </div>
+          <div data-words="kitchen" class="words box_3">
+            <span>40-60</span>
+          </div>
+          <div data-words="bathroom" class="words">
+            <span>60-80</span>
+          </div>
+          <div data-words="studio" class="words">
+            <span>80-100</span>
+          </div>
+          <div data-words="washingroom" class="words">
+            <span>100-120</span>
+          </div>
+        </div>
+        <div id="settings" class="settings">
+          <div class="container_main">
+            <h2 class="user_answer"></h2>
+            <input type="text" class="input" minlength="1" maxlength="100" />
+            <div class="general_answers">
+              <h2 class="translation"></h2>
+              <p class="count_answers"></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
